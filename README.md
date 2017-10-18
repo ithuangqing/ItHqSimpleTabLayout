@@ -15,5 +15,5 @@ Step 2. Add the dependency
 
 
 	dependencies {
-	        compile 'com.github.ithuangqing:ItHqSimpleTabLyout:v1.1'
+	        compile 'com.github.ithuangqing:ItHqSimpleTabLyout:v1.2'
 	}
