@@ -14,9 +14,7 @@ import java.util.List;
  */
 
 public class ItHqAddTab {
-
     public  static   void addTab(TabLayout tabLayout, ViewPager viewPager, final List<Fragment> fragment, final List<String> title, FragmentManager fragmentManager){
-
         /**
          * 预加载
          */
@@ -36,12 +34,9 @@ public class ItHqAddTab {
                 return title.get(position);
             }
         });
-
        // TabLayout关联ViewPager
         tabLayout.setupWithViewPager(viewPager);
 
-
     }
-
 
 }
